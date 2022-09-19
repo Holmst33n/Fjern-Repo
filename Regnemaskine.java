@@ -11,7 +11,7 @@ public class Regnemaskine {
             System.out.print("Enter two numbers: ");
             fnum = scan.nextDouble();
             snum = scan.nextDouble();
-            System.out.print("\nEnter an operator (+, *): ");
+            System.out.print("\nEnter an operator (+, *, /): ");
             op = scan.next().charAt(0);
             switch(op) {
                 case '+': ans = fnum + snum;
