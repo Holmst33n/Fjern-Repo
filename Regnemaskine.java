@@ -20,6 +20,8 @@ public class Regnemaskine {
                     break;
                 case '*': ans = fnum * snum;
                     break;
+                case '/': ans = fnum / snum;
+                    break;
                 default: System.out.print("Error! Enter correct operator");
                     return;
             }
